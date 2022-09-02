@@ -9,7 +9,7 @@ from sklearn.tree import export_graphviz  #to display the decision tree executio
 import graphviz
 
 #import the dataset "cars.csv"
-df = pd.read_csv('car_data.csv')
+df = pd.read_csv('cars.csv')
 df.head()
 
 #since strings can't be standardized we are changing gender into binary form
